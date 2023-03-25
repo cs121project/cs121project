@@ -1,4 +1,5 @@
-### Hi there 👋
+### 👋 Hello, we are the students of Computer Science and here is our project,
+### "Guide to Sustainable Development Goals: A Comprehensive E-Book with Built-in Consultant Support"
 
 <!--
 **cs121project/cs121project** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
