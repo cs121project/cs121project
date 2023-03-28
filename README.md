@@ -9,7 +9,7 @@
 ---
 #### Here are the members of this group:
 * 👨‍🦱 James Michael D. Magnaye
-* 🧒 John Andrei Barican
+* 🧒 Clarence Zamora
 * 👴 Zedric Hernandez
 
 ---
