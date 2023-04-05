@@ -11,7 +11,7 @@
 #### Here are the members of this group:
 <p>👨‍🦱 James Michael D. Magnaye <br>
 🧒 Zedric Edward C. Hernandez <br>
-👴 </p>
+👴 </p> Clarence C. Zamora 
 
 <h4>Special thanks to:</h4>
 <p>• https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet for Markdown Cheatsheet<br>
