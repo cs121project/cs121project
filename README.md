@@ -10,7 +10,7 @@
   
 #### Here are the members of this group:
 <p>👨‍🦱 James Michael D. Magnaye <br>
-🧒 <br>
+🧒 Zedric Edward C. Hernandez <br>
 👴 </p>
 
 <h4>Special thanks to:</h4>
