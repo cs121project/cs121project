@@ -11,7 +11,7 @@
 #### Here are the members of this group:
 <p>👨‍🦱 James Michael D. Magnaye <br>
 🧒 Zedric Edward C. Hernandez <br>
-👴 Clarence C. Zamora 
+👴 Clarence C. Zamora <br>
 🧒  <br>
 
 <h4>Special thanks to:</h4>
