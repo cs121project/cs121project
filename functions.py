@@ -14,7 +14,9 @@ class SDG:
         print(f"Title: {sdgs[str(self.number)]['title']}\nDescription: {sdgs['1']['description']}")
 
 NoPoverty = SDG(1)
+ZeroHunger = SDG(2)
 
 NoPoverty.printTitleDes()
+ZeroHunger.printTitleDes()
 
 # print(f"Title: {sdgs['1']['title']}\nDescription: {sdgs['1']['description']}")
