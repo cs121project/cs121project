@@ -13,3 +13,4 @@ class SDG:
     
     def printTitleDes(self):
         print(f"Title: {sdgs['1']['title']}\nDescription: {sdgs['1']['description']}")
+        print("Make Change")
