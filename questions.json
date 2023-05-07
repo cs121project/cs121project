@@ -1,0 +1,102 @@
+[
+    {
+        "question": "Which SDG aims to end poverty in all its forms everywhere?",
+        "options": [
+            "SDG 1",
+            "SDG 2",
+            "SDG 3",
+            "SDG 4"
+        ],
+        "answer": "SDG 1"
+    },
+    {
+        "question": "Which SDG focuses on ensuring access to affordable, reliable, sustainable and modern energy for all?",
+        "options": [
+            "SDG 5",
+            "SDG 6",
+            "SDG 7",
+            "SDG 8"
+        ],
+        "answer": "SDG 7"
+    },
+    {
+        "question": "Which SDG aims to promote sustained, inclusive and sustainable economic growth, full and productive employment and decent work for all?",
+        "options": [
+            "SDG 8",
+            "SDG 9",
+            "SDG 10",
+            "SDG 11"
+        ],
+        "answer": "SDG 8"
+    },
+    {
+        "question": "Which SDG aims to reduce inequality within and among countries?",
+        "options": [
+            "SDG 11",
+            "SDG 12",
+            "SDG 13",
+            "SDG 14"
+        ],
+        "answer": "SDG 10"
+    },
+    {
+        "question": "Which SDG focuses on promoting peaceful and inclusive societies for sustainable development, providing access to justice for all and building effective, accountable and inclusive institutions at all levels?",
+        "options": [
+            "SDG 14",
+            "SDG 15",
+            "SDG 16",
+            "SDG 17"
+        ],
+        "answer": "SDG 16"
+    },
+    {
+        "question": "Which SDG aims to ensure availability and sustainable management of water and sanitation for all?",
+        "options": [
+            "SDG 2",
+            "SDG 4",
+            "SDG 6",
+            "SDG 7"
+        ],
+        "answer": "SDG 6"
+    },
+    {
+        "question": "Which SDG focuses on conserving and sustainably using the oceans, seas and marine resources for sustainable development?",
+        "options": [
+            "SDG 11",
+            "SDG 12",
+            "SDG 13",
+            "SDG 14"
+        ],
+        "answer": "SDG 14"
+    },
+    {
+        "question": "Which SDG aims to ensure inclusive and equitable quality education and promote lifelong learning opportunities for all?",
+        "options": [
+            "SDG 2",
+            "SDG 3",
+            "SDG 4",
+            "SDG 5"
+        ],
+        "answer": "SDG 4"
+    },
+    {
+        "question": "Which SDG aims to achieve gender equality and empower all women and girls?",
+        "options": [
+            "SDG 3",
+            "SDG 5",
+            "SDG 7",
+            "SDG 9"
+        ],
+        "answer": "SDG 5"
+    },
+    {
+        "question": "Which SDG focuses on protecting, restoring and promoting sustainable use of terrestrial ecosystems, sustainably manage forests, combat desertification, and halt and reverse land degradation and halt biodiversity loss?",
+        "options": [
+            "SDG 12",
+            "SDG 13",
+            "SDG 14",
+            "SDG 15"
+        ],
+        "answer": "SDG 15"
+    }
+]
