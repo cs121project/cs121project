@@ -23,7 +23,7 @@ def login(users):
     if username in users and users[username]['password'] == password:
         print('Login successful!')
         cls()
-        quiz(username)
+        #quiz(username) di pa tapos
 
     else:
         print('Incorrect username or password. Please try again.')
