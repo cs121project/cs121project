@@ -6,10 +6,8 @@ def quiz(users,username):
     with open('questions.json','r') as f:
         questions = json.loads(f.read())
 
-    # Shuffle the questions
     random.shuffle(questions)
 
-    # Quiz loop
     score = 0   
     for i in questions:
         
