@@ -21,3 +21,5 @@ def quiz(users,username):
 
     print(f"final score: {score}") 
     users[username]["score"]= score
+    with open('users.json', 'w') as f:
+        json.dump(users, f , indent=4 )
