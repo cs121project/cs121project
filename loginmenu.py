@@ -36,7 +36,7 @@ def add_account(users):
         print('Username already exists. Please choose a different username.')
         return
 
-    users[username] = {'password': password, 'score': 0}
+    users[username] = {'password': password, 'prev_score': 0 , 'high_score' : 0}
     save_users(users)
     print('New account added successfully!')
 
