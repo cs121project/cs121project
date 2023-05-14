@@ -1,14 +1,7 @@
 {
-    "asd": {
-        "password": "123",
-        "score": 0
-    },
     "zed": {
-        "password": "zed123",
-        "score": 0
-    },
-    "zedric": {
-        "password": "zed",
-        "score": 0
+        "password": "123",
+        "prev_score": 1,
+        "high_score": 2
     }
 }
