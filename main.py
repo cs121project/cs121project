@@ -2,6 +2,8 @@ import os
 import time
 import json
 import random
+from loginmenu import *
+from rockpaperscissor import *
 
 os.system('cls')
 
@@ -11,12 +13,19 @@ def start():
 
     print("\nNow, how may I help you?")
     print('[1] I was hoping you could give me the list of Sustainable Development Goals and give a brief definition.')
-    print('You can view the Consultant Support in each section of SDGs.')
+    print('[2] Go to Log In/Register Option and Challenge yourself with Quiz.')
+    print('You can see if you improve your knowledge about the SDG, there will be a comparison once you finish the quiz.')
+    print('[3] Rock/Paper/Scissor')
+    print('If you win, you will get some fact/s and if you lose, you need to answer a question.')
     print('[0] Exit')
 
     choiceStart = int(input("\nWhat do you want to do?: "))
     if choiceStart == 1:
         SDGs()
+    elif choiceStart == 2:
+        loginmenu()
+    elif choiceStart == 3:
+        play_game()
     elif choiceStart == 0:
         print("\nGoodbye!")
         time.sleep(3)
@@ -84,8 +93,13 @@ def SDGs():
         os.system('cls')
         SDGs()
 
-with open('sdgs.json', 'r') as f:
-    sdgs = json.load(f)
+try:
+    with open('sdgs.json', 'r') as f:
+        sdgs = json.load(f)
+except FileNotFoundError:
+    print("File not found.")
+except json.JSONDecodeError:
+    print("Error decoding JSON.")
 
 class SDG:
     def __init__(self, number):
