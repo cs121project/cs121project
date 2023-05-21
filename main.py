@@ -44,39 +44,39 @@ def SDGs():
     choiceSDGs = int(input("\nWhat SDG do you want me to define for you (1-17)?: SDG "))
 
     if choiceSDGs == 1:
-        NoPoverty()
+        NoPoverty.printTitleDes()
     elif choiceSDGs == 2:
-        ZeroHunger()
+        ZeroHunger.printTitleDes()
     elif choiceSDGs == 3:
-        GoodHealthAndWellBeing()
+        GoodHealthAndWellBeing.printTitleDes()
     elif choiceSDGs == 4:
-        QualityEducation()
+        QualityEducation.printTitleDes()
     elif choiceSDGs == 5:
-        GenderEquality()
+        GenderEquality.printTitleDes()
     elif choiceSDGs == 6:
-        CleanWaterAndSanitation()
+        CleanWaterAndSanitation.printTitleDes()
     elif choiceSDGs == 7:
-        AffordableAndCleanEnergy()
+        AffordableAndCleanEnergy.printTitleDes()
     elif choiceSDGs == 8:
-        DecentWorkAndEconomicGrowth()
+        DecentWorkAndEconomicGrowth.printTitleDes()
     elif choiceSDGs == 9:
-        IndustryInnovationAndInfrastructure()
+        IndustryInnovationAndInfrastructure.printTitleDes()
     elif choiceSDGs == 10:
-        ReducedInequalities()
+        ReducedInequalities.printTitleDes()
     elif choiceSDGs == 11:
-        SustainableCitiesAndCommunities()
+        SustainableCitiesAndCommunities.printTitleDes()
     elif choiceSDGs == 12:
-        ResponsibleConsumptionAndProduction()
+        ResponsibleConsumptionAndProduction.printTitleDes()
     elif choiceSDGs == 13:
-        ClimateAction()
+        ClimateAction.printTitleDes()
     elif choiceSDGs == 14:
-        LifeBelowWater()
+        LifeBelowWater.printTitleDes()
     elif choiceSDGs == 15:
-        LifeOnLand()
+        LifeOnLand.printTitleDes()
     elif choiceSDGs == 16:
-        PeaceJusticeAndStrongInstitutions()
+        PeaceJusticeAndStrongInstitutions.printTitleDes()
     elif choiceSDGs == 17:
-        PartnershipsForTheGoals()
+        PartnershipsForTheGoals.printTitleDes()
     else:
         print("\nPlease choose between the given choices.")
         time.sleep(3)
