@@ -43,7 +43,7 @@ def add_account(users):
 def main():
     users = load_users()
 
-    choice = input("What do you want to do:\n[1] login\n[2] register\n[3] cancel\nENTER YOUR CHOICE:")
+    choice = input("What do you want to do?\n[1] Login \n[2] Register\n[3] Cancel\nENTER YOUR CHOICE:")
 
     if choice == '1':
         login(users)
@@ -52,7 +52,7 @@ def main():
     elif choice == '3':
         return
     else:
-        print("Enter a Valid choice")
+        print("Enter a Valid choice.")
         time.sleep(5)
         cls()
         return main()
