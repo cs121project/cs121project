@@ -7,13 +7,12 @@ def record_score(users,username,score):
     if score > users[username]["high_score"]:
         users[username]["high_score"] = score
 
-
     with open('users.json', 'w') as f:
         json.dump(users, f , indent=4 )
 
 
 def quiz(users,username):
-    print("previous score: ", users[username]["prev_score"],"                 highscore: ", users[username]["high_score"])
+    print("previous score: ", users[username]["prev_score"],"highscore: ", users[username]["high_score"])
     with open('questions.json','r') as f:
         questions = json.loads(f.read())
 
