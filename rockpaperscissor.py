@@ -206,6 +206,3 @@ def play_game():
     print("Leaderboards:\n")
     for i, player in enumerate(sorted_players):
         print(f"{i+1}. {player['name']}: {player['score']}")
-
-
-play_game()

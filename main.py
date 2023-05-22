@@ -7,6 +7,10 @@ from rockpaperscissor import *
 
 os.system('cls')
 
+def SleepTime():
+    time.sleep(3)
+    os.system('cls')
+
 def start():
     print("Welcome; I'm here to give you information about Sustainable Development Goals.")
     print('I will be your E-Book or Dictionary. I will also be your consultant.')
@@ -21,10 +25,13 @@ def start():
 
     choiceStart = int(input("\nWhat do you want to do?: "))
     if choiceStart == 1:
+        SleepTime()
         SDGs()
     elif choiceStart == 2:
-        loginmenu()
+        SleepTime()
+        LoginRegister()
     elif choiceStart == 3:
+        SleepTime()
         play_game()
     elif choiceStart == 0:
         print("\nGoodbye!")
@@ -32,14 +39,11 @@ def start():
         exit()
     else:
         print("\nPlease choose between the given choices.")
-        time.sleep(3)
-        os.system('cls')
+        SleepTime()
         start()
 
 def SDGs():
-    time.sleep(3)
-    os.system('cls')
-    
+    SleepTime()
     SDGNumTitle = ["[SDG 1] No Poverty","[SDG 2] Zero Hunger","[SDG 3] Good Health and Well-being",
     "[SDG 4] Quality Education","[SDG 5] Gender Equality","[SDG 6] Clean Water and Sanitation",
     "[SDG 7] Affordable and Clean Energy","[SDG 8] Decent Work and Economic Growth",

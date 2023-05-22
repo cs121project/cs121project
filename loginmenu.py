@@ -40,7 +40,7 @@ def add_account(users):
     save_users(users)
     print('New account added successfully!')
 
-def main():
+def LoginRegister():
     users = load_users()
 
     choice = input("What do you want to do?\n[1] Login \n[2] Register\n[3] Cancel\nENTER YOUR CHOICE:")
@@ -55,6 +55,4 @@ def main():
         print("Enter a Valid choice.")
         time.sleep(5)
         cls()
-        return main()
-
-main()
+        return LoginRegister()
