@@ -8,7 +8,7 @@ from rockpaperscissor import *
 os.system('cls')
 
 def SleepTime():
-    time.sleep(3)
+    time.sleep(1.5)
     os.system('cls')
 
 def start():
@@ -17,11 +17,11 @@ def start():
 
     print("\nNow, how may I help you?")
     print('[1] I was hoping you could give me the list of Sustainable Development Goals and give a brief definition.')
-    print('[2] Go to Log In/Register Option and Challenge yourself with Quiz.')
+    print('\n[2] Go to Log In/Register Option and Challenge yourself with Quiz.')
     print('You can see if you improve your knowledge about the SDG, there will be a comparison once you finish the quiz.')
-    print('[3] Rock/Paper/Scissor')
+    print('\n[3] Rock/Paper/Scissor')
     print('If you win, you will get some fact/s and if you lose, you need to answer a question.')
-    print('[0] Exit')
+    print('\n[0] Exit')
 
     choiceStart = int(input("\nWhat do you want to do?: "))
     if choiceStart == 1:
