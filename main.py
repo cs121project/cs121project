@@ -104,6 +104,8 @@ except FileNotFoundError:
     print("File not found.")
 except json.JSONDecodeError:
     print("Error decoding JSON.")
+except json.JSONDecodeError as e:
+    print(f"Error decoding JSON.")
 
 class SDG:
     def __init__(self, number):

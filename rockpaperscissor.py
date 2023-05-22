@@ -3,10 +3,16 @@ import json
 import os
 
 def load_json(file_path):
-    with open(file_path) as file:
-        data = json.load(file)
-    return data
-
+    try:
+        with open(file_path) as file:
+            data = json.load(file)
+        return data
+    except FileNotFoundError:
+        print(f"Error: File '{file_path}' not found.")
+    except json.JSONDecodeError:
+        print(f"Error: Failed to decode JSON in file '{file_path}'.")
+    except Exception as e:
+        print(f"Error: An unexpected error occurred while loading '{file_path}': {str(e)}")
 
 rules = load_json('rpsrules.json')
 questions = load_json('rpsquestions.json')
@@ -82,9 +88,14 @@ def play_round():
         question = questions[str(random.randint(1, 80))]
         print('You lose! Here is a question:')
         print(question['question'])
+        
         for key, value in question['choices'].items():
             print(f"{key.upper()}: {value}")
         user_answer = input('Answer: ').upper()
+        if user_answer == question['answer'].lower():
+            print('Correct!')
+        else:
+            print('Incorrect!')
     else:
         print('It\'s a tie!')
 
@@ -95,9 +106,10 @@ def play_game():
         print("1. Play\n2. How to play\n3. About\n4. Exit")
         choice = input("\nEnter your choice (1-4): ")
         if choice == '1':
-            num_rounds = int(input('\nHow many rounds do you want to play? '))
+            num_rounds = int(input('\nHow many rounds do you want to play?: '))
+            print()
             for i in range(num_rounds):
-                print(f'\nRound {i+1}:')
+                print(f'Round {i+1}:')
                 play_round()
                 input("\nPress any key to continue...")
                 os.system('cls')

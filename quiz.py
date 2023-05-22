@@ -32,6 +32,5 @@ def quiz(users,username):
             print("Incorrect.")
         count += 1
 
-
     print(f"final score: {score}") 
     record_score(users,username,score)
