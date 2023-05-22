@@ -110,8 +110,11 @@ class SDG:
         print(f"Title: {sdgs[str(self.number)]['title']}\nDescription: {sdgs['1']['description']}\n")
             
         while True:
-            FunctionsYesOrNo = input("Would you like to return to main menu or exit? [Menu/Exit]: ").lower()
-            if FunctionsYesOrNo == "menu":
+            FunctionsYesOrNo = input("Would you like to return, main menu or exit? [Return/Menu/Exit]: ").lower()
+            if FunctionsYesOrNo == "return":
+                os.system('cls')
+                SDGs()
+            elif FunctionsYesOrNo == "menu":
                 os.system('cls')
                 start()
             elif FunctionsYesOrNo == "exit":
