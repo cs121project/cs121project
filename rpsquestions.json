@@ -1,0 +1,642 @@
+{
+  "1": {
+    "question": "Which SDG focuses on eliminating poverty?",
+    "choices": {
+      "A": "SDG 1: No Poverty",
+      "B": "SDG 2: Zero Hunger"
+    },
+    "answer": "A"
+  },
+  "2": {
+    "question": "Which SDG aims to end hunger and achieve food security?",
+    "choices": {
+      "A": "SDG 2: Zero Hunger",
+      "B": "SDG 3: Good Health and Well-being"
+    },
+    "answer": "A"
+  },
+  "3": {
+    "question": "Which SDG promotes gender equality and women's empowerment?",
+    "choices": {
+      "A": "SDG 3: Good Health and Well-being",
+      "B": "SDG 5: Gender Equality"
+    },
+    "answer": "B"
+  },
+  "4": {
+    "question": "Which SDG focuses on ensuring access to clean water and sanitation?",
+    "choices": {
+      "A": "SDG 5: Gender Equality",
+      "B": "SDG 6: Clean Water and Sanitation"
+    },
+    "answer": "B"
+  },
+  "5": {
+    "question": "Which SDG aims to ensure affordable and clean energy for all?",
+    "choices": {
+      "A": "SDG 6: Clean Water and Sanitation",
+      "B": "SDG 7: Affordable and Clean Energy"
+    },
+    "answer": "B"
+  },
+  "6": {
+    "question": "Which SDG promotes inclusive and quality education for all?",
+    "choices": {
+      "A": "SDG 7: Affordable and Clean Energy",
+      "B": "SDG 4: Quality Education"
+    },
+    "answer": "B"
+  },
+  "7": {
+    "question": "Which SDG focuses on promoting decent work and economic growth?",
+    "choices": {
+      "A": "SDG 4: Quality Education",
+      "B": "SDG 8: Decent Work and Economic Growth"
+    },
+    "answer": "B"
+  },
+  "8": {
+    "question": "Which SDG aims to reduce inequalities within and among countries?",
+    "choices": {
+      "A": "SDG 8: Decent Work and Economic Growth",
+      "B": "SDG 10: Reduced Inequalities"
+    },
+    "answer": "B"
+  },
+  "9": {
+    "question": "Which SDG focuses on making cities and human settlements sustainable?",
+    "choices": {
+      "A": "SDG 10: Reduced Inequalities",
+      "B": "SDG 11: Sustainable Cities and Communities"
+    },
+    "answer": "B"
+  },
+  "10": {
+    "question": "Which SDG aims to ensure responsible consumption and production?",
+    "choices": {
+      "A": "SDG 11: Sustainable Cities and Communities",
+      "B": "SDG 12: Responsible Consumption and Production"
+    },
+    "answer": "B"
+  },
+  "11": {
+    "question": "Which SDG promotes taking urgent action to combat climate change?",
+    "choices": {
+      "A": "SDG 12: Responsible Consumption and Production",
+      "B": "SDG 13: Climate Action"
+    },
+    "answer": "B"
+  },
+  "12": {
+    "question": "Which SDG focuses on conserving and sustainably using marine resources?",
+    "choices": {
+      "A": "SDG 13: Climate Action",
+      "B": "SDG 14: Life Below Water"
+    },
+    "answer": "B"
+  },
+  "13": {
+    "question": "Which SDG aims to protect, restore, and promote sustainable use of terrestrial ecosystems?",
+    "choices": {
+      "A": "SDG 14: Life Below Water",
+      "B": "SDG 15: Life on Land"
+    },
+    "answer": "B"
+  },
+  "14": {
+    "question": "Which SDG focuses on promoting peace, justice, and strong institutions?",
+    "choices": {
+      "A": "SDG 15: Life on Land",
+      "B": "SDG 16: Peace, Justice, and Strong Institutions"
+    },
+    "answer": "B"
+  },
+  "15": {
+    "question": "Which SDG aims to revitalize the global partnership for sustainable development?",
+    "choices": {
+      "A": "SDG 16: Peace, Justice, and Strong Institutions",
+      "B": "SDG 17: Partnerships for the Goals"
+    },
+    "answer": "B"
+  },
+  "16": {
+    "question": "Which SDG focuses on promoting sustainable industrialization, innovation, and infrastructure?",
+    "choices": {
+      "A": "SDG 9: Industry, Innovation and Infrastructure",
+      "B": "SDG 10: Reduced Inequalities"
+    },
+    "answer": "A"
+  },
+  "17": {
+    "question": "Which SDG aims to ensure access to affordable, reliable, sustainable, and modern energy for all?",
+    "choices": {
+      "A": "SDG 11: Sustainable Cities and Communities",
+      "B": "SDG 7: Affordable and Clean Energy"
+    },
+    "answer": "B"
+  },
+  "18": {
+    "question": "Which SDG promotes inclusive and equitable quality education for all?",
+    "choices": {
+      "A": "SDG 4: Quality Education",
+      "B": "SDG 5: Gender Equality"
+    },
+    "answer": "A"
+  },
+  "19": {
+    "question": "Which SDG focuses on promoting sustained, inclusive, and sustainable economic growth?",
+    "choices": {
+      "A": "SDG 8: Decent Work and Economic Growth",
+      "B": "SDG 12: Responsible Consumption and Production"
+    },
+    "answer": "A"
+  },
+  "20": {
+    "question": "Which SDG aims to reduce inequalities within and among countries?",
+    "choices": {
+      "A": "SDG 16: Peace, Justice, and Strong Institutions",
+      "B": "SDG 10: Reduced Inequalities"
+    },
+    "answer": "B"
+  },
+  "21": {
+    "question": "Which SDG focuses on making cities inclusive, safe, resilient, and sustainable?",
+    "choices": {
+      "A": "SDG 11: Sustainable Cities and Communities",
+      "B": "SDG 15: Life on Land"
+    },
+    "answer": "A"
+  },
+  "22": {
+    "question": "Which SDG aims to promote sustainable consumption and production patterns?",
+    "choices": {
+      "A": "SDG 12: Responsible Consumption and Production",
+      "B": "SDG 14: Life Below Water"
+    },
+    "answer": "A"
+  },
+  "23": {
+    "question": "Which SDG focuses on taking urgent action to combat climate change and its impacts?",
+    "choices": {
+      "A": "SDG 13: Climate Action",
+      "B": "SDG 16: Peace, Justice, and Strong Institutions"
+    },
+    "answer": "A"
+  },
+  "24": {
+    "question": "Which SDG aims to conserve and sustainably use the oceans, seas, and marine resources?",
+    "choices": {
+      "A": "SDG 14: Life Below Water",
+      "B": "SDG 17: Partnerships for the Goals"
+    },
+    "answer": "A"
+  },
+  "25": {
+    "question": "Which SDG focuses on protecting, restoring, and promoting sustainable use of terrestrial ecosystems?",
+    "choices": {
+      "A": "SDG 15: Life on Land",
+      "B": "SDG 13: Climate Action"
+    },
+    "answer": "A"
+  },
+  "26": {
+    "question": "Which SDG aims to promote peaceful and inclusive societies for sustainable development?",
+    "choices": {
+      "A": "SDG 16: Peace, Justice, and Strong Institutions",
+      "B": "SDG 9: Industry, Innovation and Infrastructure"
+    },
+    "answer": "A"
+  },
+  "27": {
+    "question": "Which SDG focuses on strengthening global partnerships for sustainable development?",
+    "choices": {
+      "A": "SDG 17: Partnerships for the Goals",
+      "B": "SDG 10: Reduced Inequalities"
+    },
+    "answer": "A"
+  },
+  "28": {
+    "question": "Which SDG aims to ensure access to affordable, reliable, sustainable, and modern energy for all?",
+    "choices": {
+      "A": "SDG 7: Affordable and Clean Energy",
+      "B": "SDG 4: Quality Education"
+    },
+    "answer": "A"
+  },
+  "29": {
+    "question": "Which SDG focuses on reducing inequality within and among countries?",
+    "choices": {
+      "A": "SDG 10: Reduced Inequalities",
+      "B": "SDG 3: Good Health and Well-being"
+    },
+    "answer": "A"
+  },
+  "30": {
+    "question": "Which SDG aims to ensure access to water and sanitation for all?",
+    "choices": {
+      "A": "SDG 6: Clean Water and Sanitation",
+      "B": "SDG 2: Zero Hunger"
+    },
+    "answer": "A"
+  },
+  "31": {
+    "question": "Which SDG focuses on promoting inclusive and equitable quality education for all?",
+    "choices": {
+      "A": "SDG 4: Quality Education",
+      "B": "SDG 8: Decent Work and Economic Growth"
+    },
+    "answer": "A"
+  },
+  "32": {
+    "question": "Which SDG aims to end poverty in all its forms everywhere?",
+    "choices": {
+      "A": "SDG 1: No Poverty",
+      "B": "SDG 5: Gender Equality"
+    },
+    "answer": "A"
+  },
+  "33": {
+    "question": "Which SDG focuses on promoting gender equality and empowering women and girls?",
+    "choices": {
+      "A": "SDG 5: Gender Equality",
+      "B": "SDG 9: Industry, Innovation and Infrastructure"
+    },
+    "answer": "A"
+  },
+  "34": {
+    "question": "Which SDG aims to promote sustained, inclusive, and sustainable economic growth, full and productive employment, and decent work for all?",
+    "choices": {
+      "A": "SDG 8: Decent Work and Economic Growth",
+      "B": "SDG 12: Responsible Consumption and Production"
+    },
+    "answer": "A"
+  },
+  "35": {
+    "question": "Which SDG aims to build resilient infrastructure, promote inclusive and sustainable industrialization, and foster innovation?",
+    "choices": {
+      "A": "SDG 9: Industry, Innovation and Infrastructure",
+      "B": "SDG 11: Sustainable Cities and Communities"
+    },
+    "answer": "A"
+  },
+  "36": {
+    "question": "Which SDG focuses on making cities and human settlements inclusive, safe, resilient, and sustainable?",
+    "choices": {
+      "A": "SDG 11: Sustainable Cities and Communities",
+      "B": "SDG 15: Life on Land"
+    },
+    "answer": "A"
+  },
+  "37": {
+    "question": "Which SDG aims to ensure sustainable consumption and production patterns?",
+    "choices": {
+      "A": "SDG 12: Responsible Consumption and Production",
+      "B": "SDG 14: Life Below Water"
+    },
+    "answer": "A"
+  },
+  "38": {
+    "question": "Which SDG focuses on conserving and sustainably using the oceans, seas, and marine resources?",
+    "choices": {
+      "A": "SDG 14: Life Below Water",
+      "B": "SDG 17: Partnerships for the Goals"
+    },
+    "answer": "A"
+  },
+  "39": {
+    "question": "Which SDG aims to protect, restore, and promote sustainable use of terrestrial ecosystems, sustainably manage forests, combat desertification, halt and reverse land degradation, and halt biodiversity loss?",
+    "choices": {
+      "A": "SDG 15: Life on Land",
+      "B": "SDG 16: Peace, Justice, and Strong Institutions"
+    },
+    "answer": "A"
+  },
+  "40": {
+    "question": "Which SDG focuses on promoting peaceful and inclusive societies for sustainable development, providing access to justice for all, and building effective, accountable, and inclusive institutions at all levels?",
+    "choices": {
+      "A": "SDG 16: Peace, Justice, and Strong Institutions",
+      "B": "SDG 13: Climate Action"
+    },
+    "answer": "A"
+  },
+  "41": {
+    "question": "Which SDG aims to revitalize the global partnership for sustainable development and enhance the means of implementation?",
+    "choices": {
+      "A": "SDG 17: Partnerships for the Goals",
+      "B": "SDG 7: Affordable and Clean Energy"
+    },
+    "answer": "A"
+  },
+  "42": {
+    "question": "Which SDG focuses on ensuring access to affordable, reliable, sustainable, and modern energy for all?",
+    "choices": {
+      "A": "SDG 7: Affordable and Clean Energy",
+      "B": "SDG 3: Good Health and Well-being"
+    },
+    "answer": "A"
+  },
+  "43": {
+    "question": "Which SDG aims to promote sustained, inclusive, and sustainable economic growth, full and productive employment, and decent work for all?",
+    "choices": {
+      "A": "SDG 8: Decent Work and Economic Growth",
+      "B": "SDG 6: Clean Water and Sanitation"
+    },
+    "answer": "A"
+  },
+  "44": {
+    "question": "Which SDG focuses on ensuring availability and sustainable management of water and sanitation for all?",
+    "choices": {
+      "A": "SDG 6: Clean Water and Sanitation",
+      "B": "SDG 4: Quality Education"
+    },
+    "answer": "A"
+  },
+  "45": {
+    "question": "Which SDG aims to promote inclusive and equitable quality education and lifelong learning opportunities for all?",
+    "choices": {
+      "A": "SDG 4: Quality Education",
+      "B": "SDG 2: Zero Hunger"
+    },
+    "answer": "A"
+  },
+  "46": {
+    "question": "Which SDG focuses on ending hunger, achieving food security, improving nutrition, and promoting sustainable agriculture?",
+    "choices": {
+      "A": "SDG 2: Zero Hunger",
+      "B": "SDG 10: Reduced Inequalities"
+    },
+    "answer": "A"
+  },
+  "47": {
+    "question": "Which SDG aims to reduce inequality within and among countries?",
+    "choices": {
+      "A": "SDG 10: Reduced Inequalities",
+      "B": "SDG 13: Climate Action"
+    },
+    "answer": "A"
+  },
+  "48": {
+    "question": "Which SDG focuses on taking urgent action to combat climate change and its impacts?",
+    "choices": {
+      "A": "SDG 13: Climate Action",
+      "B": "SDG 16: Peace, Justice, and Strong Institutions"
+    },
+    "answer": "A"
+  },
+  "49": {
+    "question": "Which SDG aims to promote peaceful and inclusive societies for sustainable development, provide access to justice for all, and build effective, accountable, and inclusive institutions at all levels?",
+    "choices": {
+      "A": "SDG 16: Peace, Justice, and Strong Institutions",
+      "B": "SDG 11: Sustainable Cities and Communities"
+    },
+    "answer": "A"
+  },
+  "50": {
+    "question": "Which SDG focuses on making cities and human settlements inclusive, safe, resilient, and sustainable?",
+    "choices": {
+      "A": "SDG 11: Sustainable Cities and Communities",
+      "B": "SDG 5: Gender Equality"
+    },
+    "answer": "A"
+  },
+  "51": {
+    "question": "Which SDG aims to eliminate gender discrimination and promote equal rights for women and girls?",
+    "choices": {
+      "A": "SDG 4: Quality Education",
+      "B": "SDG 5: Gender Equality"
+    },
+    "answer": "B"
+  },
+  "52": {
+    "question": "Which SDG focuses on ensuring access to clean water and adequate sanitation for all?",
+    "choices": {
+      "A": "SDG 5: Gender Equality",
+      "B": "SDG 6: Clean Water and Sanitation"
+    },
+    "answer": "B"
+  },
+  "53": {
+    "question": "Which SDG aims to ensure universal access to affordable and clean energy sources?",
+    "choices": {
+      "A": "SDG 6: Clean Water and Sanitation",
+      "B": "SDG 7: Affordable and Clean Energy"
+    },
+    "answer": "B"
+  },
+  "54": {
+    "question": "Which SDG focuses on reducing inequality within and among countries?",
+    "choices": {
+      "A": "SDG 9: Industry, Innovation and Infrastructure",
+      "B": "SDG 10: Reduced Inequalities"
+    },
+    "answer": "B"
+  },
+  "55": {
+    "question": "Which SDG aims to make cities and human settlements inclusive, safe, resilient, and sustainable?",
+    "choices": {
+      "A": "SDG 10: Reduced Inequalities",
+      "B": "SDG 11: Sustainable Cities and Communities"
+    },
+    "answer": "B"
+  },
+  "56": {
+    "question": "Which SDG promotes sustainable consumption and production patterns?",
+    "choices": {
+      "A": "SDG 11: Sustainable Cities and Communities",
+      "B": "SDG 12: Responsible Consumption and Production"
+    },
+    "answer": "B"
+  },
+  "57": {
+    "question": "Which SDG focuses on combating climate change and its impacts?",
+    "choices": {
+      "A": "SDG 12: Responsible Consumption and Production",
+      "B": "SDG 13: Climate Action"
+    },
+    "answer": "B"
+  },
+  "58": {
+    "question": "Which SDG aims to conserve and sustainably use the oceans, seas, and marine resources?",
+    "choices": {
+      "A": "SDG 13: Climate Action",
+      "B": "SDG 14: Life Below Water"
+    },
+    "answer": "B"
+  },
+  "59": {
+    "question": "Which SDG focuses on protecting, restoring, and promoting the sustainable use of terrestrial ecosystems?",
+    "choices": {
+      "A": "SDG 14: Life Below Water",
+      "B": "SDG 15: Life on Land"
+    },
+    "answer": "B"
+  },
+  "60": {
+    "question": "Which SDG aims to promote peaceful and inclusive societies for sustainable development?",
+    "choices": {
+      "A": "SDG 15: Life on Land",
+      "B": "SDG 16: Peace, Justice, and Strong Institutions"
+    },
+    "answer": "B"
+  },
+  "61": {
+    "question": "Which SDG focuses on strengthening global partnerships for sustainable development?",
+    "choices": {
+      "A": "SDG 16: Peace, Justice, and Strong Institutions",
+      "B": "SDG 17: Partnerships for the Goals"
+    },
+    "answer": "B"
+  },
+  "62": {
+    "question": "Which SDG aims to build resilient infrastructure, promote inclusive and sustainable industrialization, and foster innovation?",
+    "choices": {
+      "A": "SDG 8: Decent Work and Economic Growth",
+      "B": "SDG 9: Industry, Innovation and Infrastructure"
+    },
+    "answer": "B"
+  },
+  "63": {
+    "question": "Which SDG promotes health and well-being for all people of all ages?",
+    "choices": {
+      "A": "SDG 2: Zero Hunger",
+      "B": "SDG 3: Good Health and Well-being"
+    },
+    "answer": "B"
+  },
+  "64": {
+    "question": "Which SDG focuses on ending hunger, achieving food security, and promoting sustainable agriculture?",
+    "choices": {
+      "A": "SDG 1: No Poverty",
+      "B": "SDG 2: Zero Hunger"
+    },
+    "answer": "B"
+  },
+  "65": {
+    "question": "Which SDG aims to ensure inclusive and equitable quality education for all?",
+    "choices": {
+      "A": "SDG 3: Good Health and Well-being",
+      "B": "SDG 4: Quality Education"
+    },
+    "answer": "B"
+  },
+  "66": {
+    "question": "Which SDG promotes sustained, inclusive, and sustainable economic growth?",
+    "choices": {
+      "A": "SDG 7: Affordable and Clean Energy",
+      "B": "SDG 8: Decent Work and Economic Growth"
+    },
+    "answer": "B"
+  },
+  "67": {
+    "question": "Which SDG aims to end poverty in all its forms and dimensions?",
+    "choices": {
+      "A": "SDG 1: No Poverty",
+      "B": "SDG 5: Gender Equality"
+    },
+    "answer": "A"
+  },
+  "68": {
+    "question": "Which SDG focuses on eradicating extreme poverty?",
+    "choices": {
+      "A": "SDG 1: No Poverty",
+      "B": "SDG 3: Good Health and Well-being"
+    },
+    "answer": "A"
+  },
+  "69": {
+    "question": "Which SDG aims to ensure healthy lives and promote well-being for all ages?",
+    "choices": {
+      "A": "SDG 2: Zero Hunger",
+      "B": "SDG 3: Good Health and Well-being"
+    },
+    "answer": "B"
+  },
+  "70": {
+    "question": "Which SDG promotes inclusive and equitable quality education for all?",
+    "choices": {
+      "A": "SDG 3: Good Health and Well-being",
+      "B": "SDG 4: Quality Education"
+    },
+    "answer": "B"
+  },
+  "71": {
+    "question": "Which SDG aims to ensure availability and sustainable management of water and sanitation for all?",
+    "choices": {
+      "A": "SDG 4: Quality Education",
+      "B": "SDG 6: Clean Water and Sanitation"
+    },
+    "answer": "B"
+  },
+  "72": {
+    "question": "Which SDG focuses on promoting sustained, inclusive, and sustainable economic growth, full and productive employment, and decent work for all?",
+    "choices": {
+      "A": "SDG 6: Clean Water and Sanitation",
+      "B": "SDG 8: Decent Work and Economic Growth"
+    },
+    "answer": "B"
+  },
+  "73": {
+    "question": "Which SDG aims to build resilient infrastructure, promote inclusive and sustainable industrialization, and foster innovation?",
+    "choices": {
+      "A": "SDG 8: Decent Work and Economic Growth",
+      "B": "SDG 9: Industry, Innovation and Infrastructure"
+    },
+    "answer": "B"
+  },
+  "74": {
+    "question": "Which SDG focuses on making cities and human settlements inclusive, safe, resilient, and sustainable?",
+    "choices": {
+      "A": "SDG 9: Industry, Innovation and Infrastructure",
+      "B": "SDG 11: Sustainable Cities and Communities"
+    },
+    "answer": "B"
+  },
+  "75": {
+    "question": "Which SDG aims to take urgent action to combat climate change and its impacts?",
+    "choices": {
+      "A": "SDG 11: Sustainable Cities and Communities",
+      "B": "SDG 13: Climate Action"
+    },
+    "answer": "B"
+  },
+  "76": {
+    "question": "Which SDG focuses on conserving and sustainably using the oceans, seas, and marine resources?",
+    "choices": {
+      "A": "SDG 13: Climate Action",
+      "B": "SDG 14: Life Below Water"
+    },
+    "answer": "B"
+  },
+  "77": {
+    "question": "Which SDG aims to protect, restore, and promote the sustainable use of terrestrial ecosystems?",
+    "choices": {
+      "A": "SDG 14: Life Below Water",
+      "B": "SDG 15: Life on Land"
+    },
+    "answer": "B"
+  },
+  "78": {
+    "question": "Which SDG aims to promote peaceful and inclusive societies for sustainable development, provide access to justice for all, and build effective, accountable, and inclusive institutions?",
+    "choices": {
+      "A": "SDG 15: Life on Land",
+      "B": "SDG 16: Peace, Justice, and Strong Institutions"
+    },
+    "answer": "B"
+  },
+  "79": {
+    "question": "Which SDG focuses on strengthening the means of implementation and revitalizing the global partnership for sustainable development?",
+    "choices": {
+      "A": "SDG 16: Peace, Justice, and Strong Institutions",
+      "B": "SDG 17: Partnerships for the Goals"
+    },
+    "answer": "B"
+  },
+  "80": {
+    "question": "Which SDG aims to ensure access to affordable, reliable, sustainable, and modern energy for all?",
+    "choices": {
+      "A": "SDG 6: Clean Water and Sanitation",
+      "B": "SDG 7: Affordable and Clean Energy"
+    },
+    "answer": "B"
+  }
+}  
