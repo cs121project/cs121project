@@ -11,26 +11,34 @@ def record_score(users,username,score):
         json.dump(users, f , indent=4 )
 
 
-def quiz(users,username):
-    print("previous score: ", users[username]["prev_score"],"           highscore: ", users[username]["high_score"])
-    with open('questions.json','r') as f:
+def quiz(users, username):
+    print("\nYour Previous Score:", users[username]["prev_score"],"\nYour High Score:", users[username]["high_score"])
+    with open('questions.json', 'r') as f:
         questions = json.loads(f.read())
 
     random.shuffle(questions)
 
-    score = 0   
-    i=questions
+    score = 0
+    i = questions
     count = 0
     while count <= 9:
         print(f"\n{i[count]['question']} \n [1] {i[count]['options'][0]}\n [2] {i[count]['options'][1]}\n [3] {i[count]['options'][2]}\n [4] {i[count]['options'][3]}\n")
 
         user_answer = int(input("Enter the number of your answer: "))
-        if i[count]['options'][int(user_answer)-1] == i[count]['answer']:
+        if i[count]['options'][int(user_answer) - 1] == i[count]['answer']:
             print("Correct!")
             score += 1
         else:
             print("Incorrect.")
         count += 1
 
-    print(f"final score: {score}") 
-    record_score(users,username,score)
+    print(f"final score: {score}")
+
+    if score > users[username]["prev_score"]:
+        print("Congrats! You beat your previous score.")
+    elif score < users[username]["prev_score"]:
+        print("Nice try, but your previous score was higher.")
+    else:
+        print("Nothing changed. Your current score is the same as your previous score.")
+
+    record_score(users, username, score)

@@ -47,6 +47,13 @@ def LoginRegister():
 
     if choice == '1':
         login(users)
+        QuizChoice = input("\nWhat do you want to do? [Menu/Return]").lower()
+        if QuizChoice == "menu":
+            pass
+        elif QuizChoice == "return":
+            pass
+        else:
+            pass
     elif choice == '2':
         add_account(users)
     elif choice == '3':

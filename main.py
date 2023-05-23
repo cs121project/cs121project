@@ -147,4 +147,32 @@ LifeOnLand= SDG(15)
 PeaceJusticeAndStrongInstitutions = SDG(16)
 PartnershipsForTheGoals = SDG(17)
 
+def LoginRegister():
+    users = load_users()
+
+    lrchoice = input("What do you want to do?\n\n[1] Login \n[2] Register\n[3] Cancel\n\nEnter your choice: ")
+
+    if lrchoice == '1':
+        login(users)
+        while True:
+            QuizChoice = input("\nWhat do you want to do? [Menu/Return]: ").lower()
+            if QuizChoice == "menu":
+                SleepTime()
+                start()
+            elif QuizChoice == "return":
+                SleepTime()
+                LoginRegister()
+            else:
+                print("\mPlease choose only from the given choice.")
+                continue
+    elif lrchoice == '2':
+        add_account(users)
+    elif lrchoice == '3':
+        return
+    else:
+        print("Enter a Valid choice.")
+        time.sleep(5)
+        cls()
+        return LoginRegister()
+
 start() # Where everything starts
