@@ -7,12 +7,15 @@ def record_score(users,username,score):
     if score > users[username]["high_score"]:
         users[username]["high_score"] = score
 
-    with open('users.json', 'w') as f:
-        json.dump(users, f , indent=4 )
-
+    try:
+        with open('users.json', 'w') as f:
+            json.dump(users, f, indent=4)
+        print("Score recorded successfully.")
+    except IOError:
+        print("Error: Failed to write score to file.")
 
 def quiz(users, username):
-    print("\nYour Previous Score:", users[username]["prev_score"],"\nYour High Score:", users[username]["high_score"])
+    print("Your Previous Score:", users[username]["prev_score"],"\nYour High Score:", users[username]["high_score"])
     with open('questions.json', 'r') as f:
         questions = json.loads(f.read())
 
@@ -35,10 +38,10 @@ def quiz(users, username):
     print(f"final score: {score}")
 
     if score > users[username]["prev_score"]:
-        print("Congrats! You beat your previous score.")
+        print("\nCongrats! You beat your previous score.")
     elif score < users[username]["prev_score"]:
-        print("Nice try, but your previous score was higher.")
+        print("\nNice try, but your previous score was higher.")
     else:
-        print("Nothing changed. Your current score is the same as your previous score.")
+        print("\nNothing changed. Your current score is the same as your previous score.")
 
     record_score(users, username, score)

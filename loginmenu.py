@@ -17,16 +17,27 @@ def save_users(users):
         json.dump(users, f , indent=4 )
 
 def login(users):
-    username = input('Enter your username: ')
-    password = input('Enter your password: ')
+    while True:
+        username = input('Enter your username: ')
+        password = input('Enter your password: ')
 
-    if username in users and users[username]['password'] == password:
-        print('Login successful!')
-        cls()
-        quiz(users,username)
+        if username in users and users[username]['password'] == password:
+            print('Login successful!')
+            cls()
+            quiz(users,username)
 
-    else:
-        print('Incorrect username or password. Please try again.')
+        else:
+            print('Incorrect username or password. Please try again.')
+
+        lmchoice = input("\nWant to try again? [Yes/No]: ").lower()
+        if lmchoice == "yes":
+            SleepTime()
+            continue
+        elif lmchoice == "no":
+            break
+        else:
+            print("\nPlease choose only from the given choice.")
+            continue
 
 def add_account(users):
     username = input('Enter a new username: ')
@@ -39,27 +50,3 @@ def add_account(users):
     users[username] = {'password': password, 'prev_score': 0 , 'high_score' : 0}
     save_users(users)
     print('New account added successfully!')
-
-def LoginRegister():
-    users = load_users()
-
-    choice = input("What do you want to do?\n[1] Login \n[2] Register\n[3] Cancel\nENTER YOUR CHOICE:")
-
-    if choice == '1':
-        login(users)
-        QuizChoice = input("\nWhat do you want to do? [Menu/Return]").lower()
-        if QuizChoice == "menu":
-            pass
-        elif QuizChoice == "return":
-            pass
-        else:
-            pass
-    elif choice == '2':
-        add_account(users)
-    elif choice == '3':
-        return
-    else:
-        print("Enter a Valid choice.")
-        time.sleep(5)
-        cls()
-        return LoginRegister()

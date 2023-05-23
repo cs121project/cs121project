@@ -5,11 +5,11 @@ import random
 from loginmenu import *
 from rockpaperscissor import *
 
-os.system('cls')
+os.system('cls' if os.name == 'nt' else 'clear')
 
 def SleepTime():
     time.sleep(1.5)
-    os.system('cls')
+    os.system('cls' if os.name == 'nt' else 'clear')
 
 def start():
     print("Welcome; I'm here to give you information about Sustainable Development Goals.")
@@ -150,9 +150,10 @@ PartnershipsForTheGoals = SDG(17)
 def LoginRegister():
     users = load_users()
 
-    lrchoice = input("What do you want to do?\n\n[1] Login \n[2] Register\n[3] Cancel\n\nEnter your choice: ")
+    lrchoice = input("What do you want to do?\n\n[1] Login \n[2] Register\n[3] Exit\n\nEnter your choice: ")
 
     if lrchoice == '1':
+        os.system('cls' if os.name == 'nt' else 'clear')
         login(users)
         while True:
             QuizChoice = input("\nWhat do you want to do? [Menu/Return]: ").lower()
@@ -163,16 +164,17 @@ def LoginRegister():
                 SleepTime()
                 LoginRegister()
             else:
-                print("\mPlease choose only from the given choice.")
+                print("\nPlease choose only from the given choice.")
                 continue
     elif lrchoice == '2':
         add_account(users)
     elif lrchoice == '3':
-        return
+        print("\nGoodbye!")
+        time.sleep(3)
+        exit()
     else:
-        print("Enter a Valid choice.")
-        time.sleep(5)
-        cls()
-        return LoginRegister()
+        print("\nEnter a Valid choice.")
+        SleepTime()
+        LoginRegister()
 
 start() # Where everything starts
