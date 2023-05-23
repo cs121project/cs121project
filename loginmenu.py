@@ -30,8 +30,9 @@ def login(users):
             print('Incorrect username or password. Please try again.')
 
         lmchoice = input("\nWant to try again? [Yes/No]: ").lower()
+
         if lmchoice == "yes":
-            SleepTime()
+            os.system('cls' if os.name == 'nt' else 'clear')
             continue
         elif lmchoice == "no":
             break

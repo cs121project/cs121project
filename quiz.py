@@ -27,13 +27,24 @@ def quiz(users, username):
     while count <= 9:
         print(f"\n{i[count]['question']} \n [1] {i[count]['options'][0]}\n [2] {i[count]['options'][1]}\n [3] {i[count]['options'][2]}\n [4] {i[count]['options'][3]}\n")
 
-        user_answer = int(input("Enter the number of your answer: "))
-        if i[count]['options'][int(user_answer) - 1] == i[count]['answer']:
-            print("Correct!")
-            score += 1
-        else:
-            print("Incorrect.")
-        count += 1
+        try:
+            user_answer = int(input("Enter the number of your answer: "))
+
+            if user_answer > 4:
+                print("Invalid input. This will be considered as wrong.")
+            elif user_answer < 1:
+                print("Invalid input. This will be considered as wrong.")
+                break
+
+            if i[count]['options'][user_answer - 1] == i[count]['answer']:
+                print("Correct!")
+                score += 1
+            else:
+                print("Incorrect.")
+            count += 1
+
+        except ValueError:
+            print("Invalid input. Please enter a number.")
 
     print(f"final score: {score}")
 
