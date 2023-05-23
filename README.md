@@ -6,7 +6,7 @@
 [![SDGs](https://img.shields.io/badge/SDGs-Visit%20the%20Site-brightgreen)](https://sdgs.un.org/goals)
 
 <h3> About the project: </h3>
-<p> We intend to make an electronic book with built-in consultant support and quiz. The electronic book/e-book will provide a brief description of the SDGs. And there will be Activities to test your knowledge, and there will be a comparison if you improve or not. You may choose from different difficulty for each activities. We will make this project using the Python programming language.</p>
+<p> We intend to make an electronic book with built-in consultant support and quiz. The electronic book/e-book will provide a brief description of the SDGs. And there will be Activities to test your knowledge, and there will be a comparison if you improve or not. And lastly, an interactive game to entertain the users wherein you will learn some fun facts or answer some questions related to SDGs. We will make this project using the Python programming language.</p>
   
 #### Here are the members of this group:
 <p>👨‍🦱 James Michael D. Magnaye <br>
