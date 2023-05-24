@@ -16,7 +16,7 @@ def start():
     print('I will be your E-Book or Dictionary. I will also be your consultant.')
 
     print("\nNow, how may I help you?")
-    print('[1] I was hoping you could give me the list of Sustainable Development Goals and give a brief definition.')
+    print('\n[1] I was hoping you could give me the list of Sustainable Development Goals and give a brief definition.')
     print('\n[2] Go to Log In/Register Option and Challenge yourself with Quiz.')
     print('You can see if you improve your knowledge about the SDG, there will be a comparison once you finish the quiz.')
     print('\n[3] Rock/Paper/Scissor')
