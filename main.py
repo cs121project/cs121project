@@ -8,7 +8,7 @@ from rockpaperscissor import *
 os.system('cls' if os.name == 'nt' else 'clear')
 
 def SleepTime():
-    time.sleep(1.5)
+    time.sleep(1)
     os.system('cls' if os.name == 'nt' else 'clear')
 
 def start():
@@ -157,12 +157,13 @@ PeaceJusticeAndStrongInstitutions = SDG(16)
 PartnershipsForTheGoals = SDG(17)
 
 def LoginRegister():
+    cls()
     users = load_users()
 
     lrchoice = input("What do you want to do?\n\n[1] Login \n[2] Register\n[3] Exit\n\nEnter your choice: ")
 
     if lrchoice == '1':
-        os.system('cls' if os.name == 'nt' else 'clear')
+        cls()
         login(users)
         while True:
             QuizChoice = input("\nWhat do you want to do? [Menu/Return]: ").lower()
@@ -173,16 +174,20 @@ def LoginRegister():
                 SleepTime()
                 LoginRegister()
             else:
-                print("\nPlease choose only from the given choice.")
-                continue
+                print("\nPlease choose only from the given choice. Returning to the Login Menu")
+                SleepTime()
+                LoginRegister()
     elif lrchoice == '2':
+        cls()
         add_account(users)
+        SleepTime()
+        LoginRegister()
     elif lrchoice == '3':
         print("\nGoodbye!")
         time.sleep(3)
         exit()
     else:
-        print("\nEnter a Valid choice.")
+        print("\nEnter a valid choice.")
         SleepTime()
         LoginRegister()
 

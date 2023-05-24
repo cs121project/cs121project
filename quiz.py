@@ -32,9 +32,10 @@ def quiz(users, username):
 
             if user_answer > 4:
                 print("Invalid input. This will be considered as wrong.")
+                continue
             elif user_answer < 1:
                 print("Invalid input. This will be considered as wrong.")
-                break
+                continue
 
             if i[count]['options'][user_answer - 1] == i[count]['answer']:
                 print("Correct!")
@@ -46,7 +47,7 @@ def quiz(users, username):
         except ValueError:
             print("Invalid input. Please enter a number.")
 
-    print(f"final score: {score}")
+    print(f"\nFinal score: {score}")
 
     if score > users[username]["prev_score"]:
         print("\nCongrats! You beat your previous score.")

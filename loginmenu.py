@@ -50,4 +50,4 @@ def add_account(users):
 
     users[username] = {'password': password, 'prev_score': 0 , 'high_score' : 0}
     save_users(users)
-    print('New account added successfully!')
+    print('\nNew account added successfully!')

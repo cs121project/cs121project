@@ -8,5 +8,40 @@
         "password": "1",
         "prev_score": 3,
         "high_score": 3
+    },
+    "James1": {
+        "password": "1",
+        "prev_score": 0,
+        "high_score": 0
+    },
+    "Jose": {
+        "password": "1",
+        "prev_score": 0,
+        "high_score": 0
+    },
+    "Jas": {
+        "password": "jas",
+        "prev_score": 0,
+        "high_score": 0
+    },
+    "Jam": {
+        "password": "1",
+        "prev_score": 2,
+        "high_score": 4
+    },
+    "Zedi": {
+        "password": "1",
+        "prev_score": 0,
+        "high_score": 0
+    },
+    "Cute": {
+        "password": "1",
+        "prev_score": 0,
+        "high_score": 0
+    },
+    "Maj": {
+        "password": "1",
+        "prev_score": 3,
+        "high_score": 3
     }
 }
