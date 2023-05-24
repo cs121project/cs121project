@@ -121,6 +121,10 @@ class SDG:
         self.number = number
     
     def printTitleDes(self):
+        """
+        Prints the title and description of the Sustainable Development Goal (SDG) based on the specified number.
+        """
+        
         os.system('cls')
         print(f"Title: {sdgs[str(self.number)]['title']}\nDescription: {sdgs[str(self.number)]['description']}\n")
             
