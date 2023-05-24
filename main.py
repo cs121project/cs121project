@@ -54,8 +54,8 @@ def SDGs():
 
     for i in SDGNumTitle:
         print(i)
-    
-    choiceSDGs = int(input("\nWhat SDG do you want me to define for you (1-17)?: SDG "))
+    print("[0] Return")
+    choiceSDGs = int(input("\nWhat SDG number do you want me to define for you (1-17) / Enter 0 to return: "))
 
     if choiceSDGs == 1:
         NoPoverty.printTitleDes()
@@ -91,10 +91,12 @@ def SDGs():
         PeaceJusticeAndStrongInstitutions.printTitleDes()
     elif choiceSDGs == 17:
         PartnershipsForTheGoals.printTitleDes()
+    elif choiceSDGs == 0:
+        SleepTime()
+        start()
     else:
         print("\nPlease choose between the given choices.")
-        time.sleep(3)
-        os.system('cls')
+        SleepTime()
         SDGs()
 
 try:
@@ -113,7 +115,7 @@ class SDG:
     
     def printTitleDes(self):
         os.system('cls')
-        print(f"Title: {sdgs[str(self.number)]['title']}\nDescription: {sdgs['1']['description']}\n")
+        print(f"Title: {sdgs[str(self.number)]['title']}\nDescription: {sdgs[str(self.number)]['description']}\n")
             
         while True:
             FunctionsYesOrNo = input("Would you like to return, main menu or exit? [Return/Menu/Exit]: ").lower()
