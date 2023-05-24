@@ -55,7 +55,14 @@ def SDGs():
     for i in SDGNumTitle:
         print(i)
     print("[0] Return")
-    choiceSDGs = int(input("\nWhat SDG number do you want me to define for you (1-17) / Enter 0 to return: "))
+    while True:
+        try:
+            choiceSDGs = int(input("\nWhat SDG number do you want me to define for you (1-17) / Enter 0 to return: "))
+            break  # Exit the loop if input is valid
+        except ValueError:
+            print("\nPlease choose between the given choices.")
+            SleepTime()
+            SDGs()
 
     if choiceSDGs == 1:
         NoPoverty.printTitleDes()
