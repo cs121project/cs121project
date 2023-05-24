@@ -207,23 +207,29 @@ def play_game():
                 os.system('cls')
 
         elif choice == '2':
-            print("How to play:\n"
+            print("\nHow to play:\n"
                   "1. Choose either rock, paper, or scissors by entering the corresponding number.\n"
                   "2. Rock beats scissors, scissors beats paper, and paper beats rock.\n"
                   "3. You will earn a point if you win a round, and lose a point if you lose a round.\n"
                   "4. At the end of the game, your total score will be displayed.\n")
+            input("\nPress any key to continue...")
+            os.system('cls')
 
         elif choice == '3':
-            print("About:\n"
+            print("\nAbout:\n"
                   "The Sustainable Development Goals (SDGs) are a set of 17 interconnected goals that aim to address "
                   "global challenges such as poverty, hunger, education, gender equality, clean water, energy, "
                   "economic growth, sustainable cities, climate action, and more. By working towards these goals, "
                   "we can create a better future for all, leaving no one behind.\n")
+            input("\n\nPress any key to continue...")
+            os.system('cls')
 
         elif choice == '4':
             SleepTime()
             return
         else:
             print("Invalid choice! Please enter a number between 1 and 4.\n")
+            SleepTime()
+            start()
 
 start() # Where everything starts
