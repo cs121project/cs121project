@@ -8,6 +8,8 @@
 <h3> About the project: </h3>
 <p> We intend to make an electronic book and quiz. The electronic book/e-book will provide a brief description of the SDGs. And there will be Activities to test your knowledge, the Quiz, and there will be a comparison if you improve or not. And lastly, an interactive game to entertain the users wherein you will learn some fun facts or answer some questions related to SDGs. We will make this project using the Python programming language.</p>
   
+Check out our video presentation here: https://www.youtube.com/watch?v=-ELaBJ0Zhb8
+  
 #### Here are the members of this group:
 <p>👨‍🦱 James Michael D. Magnaye <br>
 🧒 Zedric Edward C. Hernandez <br>
