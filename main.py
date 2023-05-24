@@ -58,7 +58,7 @@ def SDGs():
     while True:
         try:
             choiceSDGs = int(input("\nWhat SDG number do you want me to define for you (1-17) / Enter 0 to return: "))
-            break  # Exit the loop if input is valid
+            break
         except ValueError:
             print("\nPlease choose between the given choices.")
             SleepTime()
