@@ -12,9 +12,9 @@
   
 #### Here are the members of this group:
 <p>👨‍🦱⭐⭐⭐⭐⭐ James Michael D. Magnaye (cs121project)<br>
-🧒⭐⭐⭐⭐⭐Zedric Edward C. Hernandez (zedricedwardc)<br>
-👴⭐⭐⭐⭐⭐Clarence C. Zamora (DonClarko)<br>
-🧒⭐Jomari C. Singson (jomari12)<br>
+🧒⭐⭐⭐⭐⭐ Zedric Edward C. Hernandez (zedricedwardc)<br>
+👴⭐⭐⭐⭐⭐ Clarence C. Zamora (DonClarko)<br>
+🧒⭐ Jomari C. Singson (jomari12)<br>
   
 The stars indicate the participation of the members.
 
